@@ -1,8 +1,10 @@
 <?php
 
+
+
 // API ROOTME
 
-$opts = array("http" => array("method" => "GET", "header" => "Cookie: api_key=***\r\n"));
+$opts = array("http" => array("method" => "GET", "header" => "Cookie: api_key=409021_fea474cd8dc2fd09f28d446c6cd5af3ea201be3e94e05b7dd52f35ad3fb0fc22\r\n"));
 $context = stream_context_create($opts);
 $resp = file_get_contents("https://api.www.root-me.org/auteurs/409021", false, $context);
 $data = json_decode($resp, false);
@@ -74,10 +76,10 @@ function auto_copyright($year = 'auto')
     <title>Portfolio</title>
 
     <!-- Logo -->
-    <link rel="icon" type="image/png" sizes="64x64" href="img/logo/mainlogoo.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/logo/mainlogoo.webp">
 
     <!-- Font Awesome icons (free version)-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous" defer></script>
 
     <!-- CSS -->
     <link href="css/styles.css" rel="stylesheet">
@@ -135,7 +137,7 @@ function auto_copyright($year = 'auto')
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="en-uk">
                             langage
-                            <img src="img/langue/France.png" alt="logo-france">
+                            <img src="img/langue/France.webp" alt="logo-france">
                         </a>
                     </li>
                 </ul>
@@ -221,12 +223,12 @@ function auto_copyright($year = 'auto')
                                 <div class="wrapper">
 
                                     <div class="skill">
-                                        <img src="img/langue/Flag Uk.png" alt="drapeau-uk">
+                                        <img src="img/langue/Flag Uk.webp" alt="drapeau-uk">
                                         <p>Anglais <span>niveau : B1+</span></p>
                                     </div>
 
                                     <div class="skill">
-                                        <img src="img/langue/Flag ES.png" alt="drapeau-es">
+                                        <img src="img/langue/Flag ES.webp" alt="drapeau-es">
                                         <p>Espagole <span>niveau : A2</span></p>
                                     </div>
                                 </div>
@@ -327,7 +329,7 @@ function auto_copyright($year = 'auto')
             <!-- About Section Content-->
             <div class="card-master">
                 <div class="card">
-                    <img src="img/formation/saintbé.bmp" class="card-img-top" alt="image saint bénigne" />
+                    <img src="img/formation/saintbé.webp" class="card-img-top" alt="image saint bénigne" />
                     <div class="card-body">
                         <h5 class="card-title">BTS SIO <br>septembre 2022 à juillet 2024</span> <br><a href="https://www.sb-lycee.fr/">site de l'établissement <i class="fas fa-link"></i></a>
                         </h5>
@@ -337,7 +339,7 @@ function auto_copyright($year = 'auto')
                     </div>
                 </div>
                 <div class="card">
-                    <img src="img/formation/saintjo.bmp" class="card-img-top" alt="image saint Joseph" />
+                    <img src="img/formation/saintjo.webp" class="card-img-top" alt="image saint Joseph" />
                     <div class="card-body">
                         <h5 class="card-title">Baccalauréat<br><span class="reduss-title">De septembre 2021 à juillet
                                 2022</span><br><a href="https://www.stjodijon.com/">site de l'établissement <i class="fas fa-link"></i></a></h5>
@@ -347,7 +349,7 @@ function auto_copyright($year = 'auto')
                     </div>
                 </div>
                 <div class="card">
-                    <img src="img/formation/BEP.png" class="card-img-top" alt="Fissure in Sandstone" />
+                    <img src="img/formation/BEP.webp" class="card-img-top" alt="Fissure in Sandstone" />
                     <div class="card-body">
                         <h5 class="card-title">BEP MELEC<br><span>De septembre 2020 à juillet 2021</span> <br><a href="https://www.stjodijon.com/">site de l'établissement <i class="fas fa-link"></i></a></h5>
                         <p class="card-text">Au Lycée privé Saint Joseph la salle à Dijon, j’ai passé mon BEP MELEC
@@ -356,7 +358,7 @@ function auto_copyright($year = 'auto')
                     </div>
                 </div>
                 <div class="card">
-                    <img src="img/formation/pix.bmp" class="card-img-top" alt="Fissure in Sandstone" />
+                    <img src="img/formation/pix.webp" class="card-img-top" alt="Fissure in Sandstone" />
                     <div class="card-body">
                         <h5 class="card-title">Certificat Pix<br><span>De mars 2022 à avril 2022</span><br><a href="https://www.stjodijon.com/">site de l'établissement <i class="fas fa-link"></i></a></h5>
                         <p class="card-text">Au lycée privé Saint Joseph la salle, j’ai passé mon certificat Pix. <br>
@@ -388,7 +390,7 @@ function auto_copyright($year = 'auto')
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="card portfolio-item-caption-content text-center text-white">
 
-                                <img class="card-img-top" src="img/comp/java.png" alt="Java" style="width:128px;height:128px;align-self:center;">
+                                <img class="card-img-top" src="img/comp/java.webp" alt="Java" style="width:128px;height:128px;align-self:center;">
 
                                 <a data-toggle="collapse" href="#collapseJava" aria-expanded="false" aria-controls="collapseJava">
                                     <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" colors="primary:#121331" state="hover-2" style="width:48px;height:48px; padding-top:5px; padding-bottom:5px">
@@ -419,7 +421,7 @@ function auto_copyright($year = 'auto')
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="card portfolio-item-caption-content text-center text-white">
 
-                                <img class="card-img-top" src="img/comp/js.png" alt="Java-script" style="width:128px;height:128px;align-self:center;">
+                                <img class="card-img-top" src="img/comp/js.webp" alt="Java-script" style="width:128px;height:128px;align-self:center;">
 
                                 <a data-toggle="collapse" href="#collapseJava-script" aria-expanded="false" aria-controls="collapseJava-script">
                                     <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" colors="primary:#121331" state="hover-2" style="width:48px;height:48px; padding-top:5px; padding-bottom:5px">
@@ -449,7 +451,7 @@ function auto_copyright($year = 'auto')
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <img id="img-item-competence" src="img/comp/js.png" alt="Java-script">
+                                <img id="img-item-competence" src="img/comp/js.webp" alt="Java-script">
                             </div>
                         </div>
                     </div>
@@ -459,7 +461,7 @@ function auto_copyright($year = 'auto')
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="card portfolio-item-caption-content text-center text-white">
 
-                                <img class="card-img-top" src="img/comp/unity.png" alt="Unity" style="width:128px;height:128px;align-self:center;">
+                                <img class="card-img-top" src="img/comp/unity.webp" alt="Unity" style="width:128px;height:128px;align-self:center;">
 
                                 <a data-toggle="collapse" href="#collapseUnity" aria-expanded="false" aria-controls="collapseUnity">
                                     <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" colors="primary:#121331" state="hover-2" style="width:48px;height:48px; padding-top:5px; padding-bottom:5px">
@@ -488,7 +490,7 @@ function auto_copyright($year = 'auto')
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <img id="img-item-competence" src="img/comp/unity.png" alt="unity">
+                                <img id="img-item-competence" src="img/comp/unity.webp" alt="unity">
                             </div>
                         </div>
                     </div>
@@ -498,7 +500,7 @@ function auto_copyright($year = 'auto')
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="card portfolio-item-caption-content text-center text-white">
 
-                                <img class="card-img-top" src="img/comp/html.png" alt="html" style="width:128px;height:128px;align-self:center;">
+                                <img class="card-img-top" src="img/comp/html.webp" alt="html" style="width:128px;height:128px;align-self:center;">
 
                                 <a data-toggle="collapse" href="#collapsehtml" aria-expanded="false" aria-controls="collapsehtml">
                                     <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" colors="primary:#121331" state="hover-2" style="width:48px;height:48px; padding-top:5px; padding-bottom:5px">
@@ -527,7 +529,7 @@ function auto_copyright($year = 'auto')
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <img id="img-item-competence" src="img/comp/html.png" alt="html">
+                                <img id="img-item-competence" src="img/comp/html.webp" alt="html">
                             </div>
                         </div>
                     </div>
@@ -537,7 +539,7 @@ function auto_copyright($year = 'auto')
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="card portfolio-item-caption-content text-center text-white">
 
-                                <img class="card-img-top" src="img/comp/c-sharp.png" alt="c-sharp" style="width:128px;height:128px;align-self:center;">
+                                <img class="card-img-top" src="img/comp/c-sharp.webp" alt="c-sharp" style="width:128px;height:128px;align-self:center;">
 
                                 <a data-toggle="collapse" href="#collapsec-sharp" aria-expanded="false" aria-controls="collapsec-sharp">
                                     <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" colors="primary:#121331" state="hover-2" style="width:48px;height:48px; padding-top:5px; padding-bottom:5px">
@@ -567,7 +569,7 @@ function auto_copyright($year = 'auto')
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <img id="img-item-competence" src="img/comp/c-sharp.png" alt="C-sharp">
+                                <img id="img-item-competence" src="img/comp/c-sharp.webp" alt="C-sharp">
                             </div>
                         </div>
                     </div>
@@ -577,7 +579,7 @@ function auto_copyright($year = 'auto')
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="card portfolio-item-caption-content text-center text-white">
 
-                                <img class="card-img-top" src="img/comp/python.png" alt="python" style="width:128px;height:128px;align-self:center;">
+                                <img class="card-img-top" src="img/comp/python.webp" alt="python" style="width:128px;height:128px;align-self:center;">
 
                                 <a data-toggle="collapse" href="#collapsepython" aria-expanded="false" aria-controls="collapsepython">
                                     <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="hover" colors="primary:#121331" state="hover-2" style="width:48px;height:48px; padding-top:5px; padding-bottom:5px">
@@ -607,7 +609,7 @@ function auto_copyright($year = 'auto')
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
-                                <img id="img-item-competence" src="img/comp/python.png" alt="python">
+                                <img id="img-item-competence" src="img/comp/python.webp" alt="python">
                             </div>
                         </div>
                     </div>
@@ -623,7 +625,7 @@ function auto_copyright($year = 'auto')
                                             <div class="d-flex mb-4 align-items-center">
                                                 <div class="flex-grow-1 d-flex align-items-center">
                                                     <div class="p-2 bg-black shadow-lg position-relative flex-center rounded-circle border">
-                                                        <img src="img/comp/code wars.png" class="img-fluid" alt="">
+                                                        <img src="img/comp/code wars.webp" class="img-fluid" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -668,7 +670,7 @@ function auto_copyright($year = 'auto')
                                                 <div class="flex-grow-1 d-flex align-items-center">
                                                     <!--Campany-->
                                                     <div class="p-2 bg-black shadow-lg position-relative flex-center rounded-circle border">
-                                                        <img src="img/comp/rootmee.png" class="img-fluid" alt="">
+                                                        <img src="img/comp/rootmee.webp" class="img-fluid" alt="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -753,7 +755,7 @@ function auto_copyright($year = 'auto')
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="img/comp/lvl/Débutant.png" alt="Level java" />
+                                <img class="img-fluid rounded mb-5" src="img/comp/lvl/Débutant.webp" alt="Level java" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
                                     Je commence a apprendre le language java en autodidacte et bientôt dans mon futur
@@ -786,7 +788,7 @@ function auto_copyright($year = 'auto')
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/inter.png" alt="Level js" />
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/inter.webp" alt="Level js" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
                                     Je commence a apprendre le language java-script dans le cadre de mes études et en
@@ -819,7 +821,7 @@ function auto_copyright($year = 'auto')
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/Débutant.png" alt="Level Unity" />
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/Débutant.webp" alt="Level Unity" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
                                     J'ai commencer a utiliser unity dans le cadre de mes études via le language C#
@@ -851,7 +853,7 @@ function auto_copyright($year = 'auto')
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/inter.png" alt="Level html" />
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/inter.webp" alt="Level html" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
                                     j'ai déjà pratiquées le language HTML et j'ai quelques base solide dans ce dernier.
@@ -883,7 +885,7 @@ function auto_copyright($year = 'auto')
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/amateur.png" alt="Level C#" />
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/amateur.webp" alt="Level C#" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
                                     Je commence a apprendre le language C# dans le cadre de mes études et en
@@ -916,7 +918,7 @@ function auto_copyright($year = 'auto')
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/inter.png" alt="Level Python" />
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="img/comp/lvl/inter.webp" alt="Level Python" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">
                                     Python est le premier language de programation que j'ai appris, j'ai de plutôt bonne
@@ -1171,14 +1173,14 @@ function auto_copyright($year = 'auto')
         </a>
     </div>
     <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" defer></script>
     <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" defer></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" defer></script>
     <!-- icone annimé -->
-    <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+    <script src="https://cdn.lordicon.com/fudrjiwc.js" defer></script>
 
 </body>
 

@@ -1,0 +1,33 @@
+RewriteEngine On
+
+# si on va sur la page en-uk
+# l'url sera en-uk et non /php/page-anglais.php
+RewriteRule ^en-uk$ /php/page-anglais.php [L]
+
+# si on revien sur la page fr
+# l'url sera fr-fr et non index.php ou just /
+RewriteRule ^fr-fr$ / [L]
+
+# si on trouve l'egg
+# l'url sera Easter-Egg et non egg/index.html
+RewriteRule ^Easter-Egg$ /egg/index.html [L]
+
+
+# dans le cas ou une erreur arrive
+# on affiche la page 404 qui se trouve dans le dossier /php/page-404.php
+ErrorDocument 400 /php/page-404.php
+ErrorDocument 401 /php/page-404.php
+ErrorDocument 403 /php/page-404.php
+ErrorDocument 404 /php/page-404.php
+ErrorDocument 405 /php/page-404.php
+ErrorDocument 408 /php/page-404.php
+ErrorDocument 410 /php/page-404.php
+ErrorDocument 411 /php/page-404.php
+ErrorDocument 413 /php/page-404.php
+ErrorDocument 414 /php/page-404.php
+ErrorDocument 415 /php/page-404.php
+ErrorDocument 500 /php/page-404.php
+ErrorDocument 501 /php/page-404.php
+ErrorDocument 502 /php/page-404.php
+ErrorDocument 503 /php/page-404.php
+ErrorDocument 504 /php/page-404.php
